@@ -6,7 +6,7 @@ app.use(express.json());
 app.use(cors());
 const User = require("./signUpDataSchema");
 const GuideUser = require("./guideFullDataSchema");
-const ImageM=require("../server/imageModel")
+const ImageM=require("./imageModel")
 const bcrypt = require("bcryptjs");
 
 const multer=require("multer")
