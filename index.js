@@ -4,7 +4,7 @@ const cors = require("cors");
 const app = express();
 app.use(express.json());
 app.use(cors());
-const User = require("./signUpDataSchema");
+const Usert = require("./signUpDataSchema");
 const GuideUser = require("./guideFullDataSchema");
 const ImageM=require("./imageModel")
 const bcrypt = require("bcryptjs");
